@@ -1,0 +1,45 @@
+{
+  "network": {
+    "protocol": "USB4 20Gbps",
+    "description": "High-bandwidth, near-zero latency bridge between Mini PC and Main PC"
+  },
+  "nodes": {
+    "mini_pc": {
+      "host": "localhost",
+      "port": 11434,
+      "role": "Always-on Context Engine & Local Admin",
+      "hardware": {
+        "cpu": "Intel Core Ultra 9 185H",
+        "ram": "32GB",
+        "gpu": ["Intel Arc B580 (20 Xe Cores)", "Intel Arc 140T (8 Xe Cores)"],
+        "acceleration": "Vulkan"
+      },
+      "models": {
+        "embedding": "nomic-embed-text (or bge-m3)",
+        "instruct_light": "gemma2:2b (or qwen2.5-coder:3b-q4_0)"
+      },
+      "responsibilities": [
+        "Real-time RAG Context & Embeddings",
+        "Local orchestration and task routing",
+        "Low-latency autocomplete (VS Code)"
+      ]
+    },
+    "main_pc": {
+      "host": "10.0.0.2",
+      "port": 11434,
+      "role": "Heavy Compute & Deep Reasoning Node",
+      "hardware": {
+        "cpu": "Intel Core Ultra 7 265K/270K Plus",
+        "gpu": "AMD Radeon RX 9070XT OC XTX"
+      },
+      "models": {
+        "instruct_heavy": "deepseek-coder-v2 / llama3.3-70b-q4_k_m / gemma-12b"
+      },
+      "responsibilities": [
+        "Complex multi-file refactoring",
+        "Architecture synthesis",
+        "Large-scale code generation"
+      ]
+    }
+  }
+}

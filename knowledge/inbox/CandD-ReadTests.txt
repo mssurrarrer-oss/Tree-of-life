@@ -1,0 +1,58 @@
+Test	Block Size	Result	CPU%	Drive
+Linear Read (Begin)	8 MB	6451.8 MB/s	9 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Linear Read (Middle)	8 MB	7267.7 MB/s	9 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Linear Read (End)	8 MB	5404.8 MB/s	17 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Random Read	8 MB	7295.5 MB/s	10 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Buffered Read	8 MB	6428.7 MB/s	8 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Average Read Access		0.03 ms	14 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+
+Linear Read (Begin)	64 KB	1288.0 MB/s	11 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Linear Read (Middle)	64 KB	1235.0 MB/s	21 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Linear Read (End)	64 KB	1289.5 MB/s	15 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Random Read	64 KB	1187.9 MB/s	11 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Buffered Read	64 KB	444.9 MB/s	10 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Average Read Access		0.03 ms	12 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+
+Linear Read (Begin)	128 KB	2022.4 MB/s	9 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Linear Read (Middle)	128 KB	2431.3 MB/s	13 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Linear Read (End)	128 KB	2147.7 MB/s	7 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Random Read	128 KB	2186.1 MB/s	14 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Buffered Read	128 KB	528.5 MB/s	10 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Average Read Access		0.03 ms	7 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+
+Linear Read (Begin)	512 KB	4658.7 MB/s	7 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Linear Read (Middle)	512 KB	4443.0 MB/s	15 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Linear Read (End)	512 KB	4327.1 MB/s	10 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Random Read	512 KB	4313.7 MB/s	17 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Buffered Read	512 KB	1162.9 MB/s	7 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Average Read Access		0.03 ms	8 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+
+Linear Read (Begin)	512 KB	1298.3 MB/s	9 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Linear Read (Middle)	512 KB	4353.6 MB/s	11 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Linear Read (End)	512 KB	258.3 MB/s	10 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Random Read	512 KB	4760.3 MB/s	10 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Buffered Read	512 KB	3327.9 MB/s	13 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Average Read Access		0.04 ms	10 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+
+Linear Read (Begin)	2 MB	2173.9 MB/s	13 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Linear Read (Middle)	2 MB	6042.0 MB/s	7 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Linear Read (End)	2 MB	385.0 MB/s	14 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Random Read	2 MB	6417.9 MB/s	16 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Buffered Read	2 MB	6959.9 MB/s	15 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Average Read Access		0.04 ms	11 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+
+Linear Read (Begin)	8 MB	3622.1 MB/s	9 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Linear Read (Middle)	8 MB	7580.0 MB/s	11 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Linear Read (End)	8 MB	390.0 MB/s	12 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Random Read	8 MB	7819.5 MB/s	14 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Buffered Read	8 MB	7314.6 MB/s	12 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Average Read Access		0.04 ms	12 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+
+Linear Read (Begin)	64 KB	598.0 MB/s	11 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Linear Read (Middle)	64 KB	2746.1 MB/s	15 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Linear Read (End)	64 KB	312.6 MB/s	8 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Random Read	64 KB	2437.5 MB/s	12 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Buffered Read	64 KB	652.3 MB/s	10 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+Average Read Access		0.05 ms	15 %	Disk Drive #1  [SIX X15000 Pro SSD]  (1907.7 GB)
+
+

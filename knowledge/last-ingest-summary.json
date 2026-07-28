@@ -1,0 +1,10 @@
+{
+  "runAt": "2026-07-28T17:48:22.776884+00:00",
+  "documentsSeen": 46,
+  "documentsIndexed": 46,
+  "chunksIndexed": 10271,
+  "documentsDeleted": 0,
+  "archivedInboxFiles": 0,
+  "database": "knowledge/memory-metadata.db",
+  "index": "knowledge/memory-index.json"
+}

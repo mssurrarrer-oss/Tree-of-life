@@ -1,0 +1,35 @@
+{
+  "projects": [
+    {
+      "name": "Language proofing and symbol interpretation",
+      "priority": "critical",
+      "status": "planning",
+      "nextStep": "Create a local workflow for letter, sound, and meaning analysis"
+    },
+    {
+      "name": "VR/AR immersive AI environment",
+      "priority": "high",
+      "status": "planning",
+      "nextStep": "Set up a development sandbox and toolchain"
+    },
+    {
+      "name": "Smart home coordination",
+      "priority": "high",
+      "status": "planning",
+      "nextStep": "Choose a local automation layer such as Home Assistant or Node-RED"
+    },
+    {
+      "name": "Local AI knowledge foundation",
+      "priority": "high",
+      "status": "planning",
+      "nextStep": "Implement a lightweight local RAG setup with curated documents"
+    }
+  ],
+  "preferredModels": [
+    "Gemma 4",
+    "Qwen 3+",
+    "Gemini",
+    "Microsoft Copilot",
+    "Open-source local models"
+  ]
+}

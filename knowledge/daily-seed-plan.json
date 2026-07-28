@@ -1,0 +1,19 @@
+﻿{
+    "generatedAt":  "2026-07-28T07:32:17",
+    "seedInput":  "2026-07-28|Language proofing and symbol interpretation|41|",
+    "seed":  "d3b2dc56be87e34f827e70fcc4a1565c1980d09deb56716f2ea8b9fb1daaf489",
+    "topPriorityProject":  "Language proofing and symbol interpretation",
+    "ingestDocumentsProcessed":  41,
+    "tasks":  [
+                  {
+                      "type":  "stability",
+                      "category":  "cleanup",
+                      "objective":  "Deliver one reliability improvement in under 30 minutes."
+                  },
+                  {
+                      "type":  "exploration",
+                      "category":  "automation-experiment",
+                      "objective":  "Run one measurable experiment and record outcome."
+                  }
+              ]
+}

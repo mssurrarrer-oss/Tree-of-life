@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Hub</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Local AI workspace</p>
+          <h1>AI Hub</h1>
+          <p>Your personal launchpad for prompts, notes, experiments, and projects.</p>
+        </div>
+        <button id="reset-data" type="button">Reset local data</button>
+      </header>
+
+      <main class="grid">
+        <section class="card">
+          <h2>Today’s focus</h2>
+          <textarea id="daily-notes" placeholder="Capture your current goal, idea, or insight..."></textarea>
+          <p class="hint">Saved automatically in your browser.</p>
+        </section>
+
+        <section class="card">
+          <h2>Next actions</h2>
+          <form id="task-form">
+            <input id="task-input" type="text" placeholder="Add a task" />
+            <button type="submit">Add</button>
+          </form>
+          <ul id="task-list"></ul>
+        </section>
+
+        <section class="card">
+          <h2>AI Focus</h2>
+          <div id="focus-panel" class="focus-panel"></div>
+        </section>
+
+        <section class="card">
+          <h2>Prompt starter pack</h2>
+          <ul id="prompt-pack" class="stack-list"></ul>
+        </section>
+
+        <section class="card">
+          <h2>Local folders</h2>
+          <ul class="stack-list">
+            <li>Notes — capture ideas and meeting summaries</li>
+            <li>Prompts — save reusable prompt templates</li>
+            <li>Projects — keep experiments and builds organized</li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h2>Core vision</h2>
+          <ul class="stack-list">
+            <li>Language proofing and letter/sound meaning work</li>
+            <li>VR/AR world building and immersive AI experiences</li>
+            <li>Smart home coordination and daily-life integration</li>
+            <li>High-morality, evolutionary AI-human-spirit collaboration</li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h2>Favorite tool shortcuts</h2>
+          <ul class="stack-list">
+            <li><a href="launchers/launch-amuse.bat">Amuse</a></li>
+            <li><a href="launchers/launch-lmstudio.bat">LM Studio</a></li>
+            <li><a href="launchers/launch-ollama.bat">Ollama</a></li>
+            <li><a href="launchers/launch-comfyui.bat">ComfyUI</a></li>
+            <li><a href="launchers/launch-pytorch.bat">PyTorch check</a></li>
+          </ul>
+        </section>
+
+        <section class="card wide-card">
+          <h2>Hardware layout guidance</h2>
+          <ul class="stack-list">
+            <li><strong>C: SSD</strong> — keep Windows, apps, and the OS on this fast drive.</li>
+            <li><strong>D: RAID0</strong> — ideal for model storage and active AI datasets because it gives you higher bandwidth.</li>
+            <li><strong>Virtual memory</strong> — your 100GB stripe is reasonable, but keep it as a buffer rather than your primary storage strategy.</li>
+            <li><strong>Best practice</strong> — place model weights and cache on D:, keep system files and installed apps on C:, and leave some free space on both drives.</li>
+            <li><strong>Extra improvement</strong> — if possible, keep a separate backup location for important models or checkpoints, since RAID0 improves speed but does not protect against drive loss.</li>
+          </ul>
+        </section>
+
+        <section class="card wide-card">
+          <h2>Model and workflow foundation</h2>
+          <ul class="stack-list">
+            <li><a href="projects/model-strategy.md">Model strategy</a></li>
+            <li><a href="projects/ai-constitution.md">Local AI constitution</a></li>
+            <li><a href="projects/workflow-tracker.json">Workflow tracker</a></li>
+            <li><a href="projects/ai-roadmap.md">Roadmap</a></li>
+          </ul>
+        </section>
+
+        <section class="card wide-card">
+          <h2>Model comparison panel</h2>
+          <table class="model-table">
+            <thead>
+              <tr>
+                <th>Model</th>
+                <th>Role</th>
+                <th>Strength</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="model-table-body"></tbody>
+          </table>
+        </section>
+
+        <section class="card">
+          <h2>Local RAG / knowledge base starter</h2>
+          <ul id="knowledge-base-list" class="stack-list"></ul>
+          <p class="hint">Starter corpus location: <a href="knowledge/README.md">knowledge/</a></p>
+        </section>
+
+        <section class="card wide-card">
+          <h2>Memory retrieval panel</h2>
+          <form id="memory-form">
+            <input id="memory-query" type="text" placeholder="Search your local memory base" />
+            <button type="submit">Search</button>
+          </form>
+          <div id="memory-results" class="memory-results"></div>
+          <p class="hint">Add conversations and notes into the knowledge folder and they will be available here as your retrieval layer grows.</p>
+        </section>
+
+        <section class="card wide-card">
+          <h2>Operational constitution</h2>
+          <ul class="stack-list">
+            <li><a href="projects/operational-constitution.md">Read the operating principles</a></li>
+            <li>Balance personal growth with shared benefit.</li>
+            <li>Use profiles and modes to make work more meaningful and adaptive.</li>
+            <li>Preserve continuity, ethics, and memory as first-class habits.</li>
+          </ul>
+        </section>
+
+        <section class="card wide-card">
+          <h2>Innovation and evolution</h2>
+          <ul class="stack-list">
+            <li><a href="projects/innovation-evolution.md">Theory and growth framework</a></li>
+            <li>Progressive philosophy and reasoning</li>
+            <li>Focused evolution of personal and collective capacity</li>
+            <li>Constitutional growth tied to action and memory</li>
+          </ul>
+        </section>
+
+        <section class="card wide-card">
+          <h2>Starter agent</h2>
+          <p class="hint">A lightweight local companion that can maintain a small working memory and offer periodic suggestions.</p>
+          <ul class="stack-list">
+            <li><a href="agent/starter-agent.py">Agent script</a></li>
+            <li><a href="agent/run-agent.bat">Run agent (batch)</a></li>
+            <li><a href="agent/run-agent.ps1">Run agent (PowerShell)</a></li>
+            <li><a href="agent/state.json">Agent state</a></li>
+          </ul>
+        </section>
+
+        <section class="card wide-card">
+          <h2>AI mode selector</h2>
+          <div class="mode-controls">
+            <label for="mode-select">Current mode</label>
+            <select id="mode-select">
+              <option value="general">General / universal</option>
+              <option value="language">Language Guardian</option>
+              <option value="creative">Creative Builder</option>
+              <option value="home">Household Coordinator</option>
+              <option value="ethics">Ethics Steward</option>
+              <option value="memory">Memory Archivist</option>
+            </select>
+          </div>
+          <div id="active-mode-summary" class="mode-summary"></div>
+          <div id="profile-grid" class="profile-grid"></div>
+        </section>
+
+        <section class="card">
+          <h2>Daily operations board</h2>
+          <ul id="daily-plan-list" class="stack-list"></ul>
+        </section>
+
+        <section class="card wide-card">
+          <h2>Pieces OS / MCP integration note</h2>
+          <ul class="stack-list">
+            <li>Pieces OS is worth considering if you want richer local workflow memory and context capture.</li>
+            <li>It can be a strong complement to a local knowledge base because it focuses on workflow continuity.</li>
+            <li>If you install it, the first step should be to test whether its MCP integration works with your current toolchain before relying on it for critical automation.</li>
+            <li>For your use case, I would treat Pieces OS as a useful local memory and workflow layer, not a replacement for your own curated knowledge base.</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

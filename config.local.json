@@ -1,0 +1,22 @@
+{
+    "python_executable":  "C:\\Users\\micha\\AppData\\Local\\Programs\\Python\\Launcher\\py.exe",
+    "default_mode":  "general",
+    "machine_name":  "AAICHAEL-PC270K",
+    "user_name":  "micha",
+    "knowledge_extra_roots":  [
+                                  "projects/letter-research",
+                                  "projects/active-collaboration"
+                              ],
+    "git_user_email":  "",
+    "knowledge_root":  "knowledge",
+    "knowledge_inbox":  "knowledge/inbox",
+    "model_directory":  "D:\\Models",
+    "memory_index_path":  "knowledge/memory-index.json",
+    "memory_database_path":  "knowledge/memory-metadata.db",
+    "git_user_name":  "",
+    "git_executable":  "C:\\Program Files\\Git\\cmd\\git.exe",
+    "github_username":  "",
+    "lmstudio_executable":  "C:\\Users\\micha\\AppData\\Local\\Programs\\LM Studio\\LM Studio.exe",
+    "repo_root":  "D:\\ai-hub",
+    "vscode_executable":  "C:\\Users\\micha\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin\\code-insiders.cmd"
+}

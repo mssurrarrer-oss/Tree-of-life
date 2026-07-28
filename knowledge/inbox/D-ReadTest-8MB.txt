@@ -1,0 +1,7 @@
+Test	Block Size	Result	CPU%	Drive
+Linear Read (Begin)	8 MB	6451.8 MB/s	9 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Linear Read (Middle)	8 MB	7267.7 MB/s	9 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Linear Read (End)	8 MB	5404.8 MB/s	17 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Random Read	        8 MB	7295.5 MB/s	10 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Buffered Read	        8 MB	6428.7 MB/s	8 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)
+Average Read Access		0.03 ms	        14 %	Disk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB)

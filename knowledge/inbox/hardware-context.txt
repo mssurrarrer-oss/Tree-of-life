@@ -1,0 +1,2 @@
+Recent Hardware Arc: Surface Go -> Lenovo Chromebook (IP5) -> AtomMan X7-Ti -> Core Ultra 7 TaiChi Aqua 48GB 8000MT DDR5 with an XTX RX 9070 XT Mercury Magnetic Air OC.
+System Context: The huge tower is an absolute powerhouse. The smaller AtomMan box is running local. The AtomMan's OSD (on-screen display) doesn't initialize until user login, likely due to secondary monitor rendering contexts.

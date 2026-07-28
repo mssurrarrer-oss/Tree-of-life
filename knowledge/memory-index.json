@@ -1,0 +1,327 @@
+{
+  "updatedAt": "2026-07-28T17:48:22.776884+00:00",
+  "documents": [
+    {
+      "title": "Conversation Import Template",
+      "path": "knowledge/conversation-import-template.md",
+      "checksum": "231d1dbd3c6cf7bf84787ee50fb771128504d793bc2e24695f5bfbdf167e75c9",
+      "chunkCount": 1,
+      "snippet": "# Conversation Import Template  Use this file to paste saved conversations, important chats, and reflections.  ## Suggested format - Date: - Source: - Summary: - Key themes: - Important quotes: - Follow-up actions:"
+    },
+    {
+      "title": "Daily Seed Plan",
+      "path": "knowledge/daily-seed-plan.json",
+      "checksum": "5b1c68b5047b00bfecceeae59e3c6e1260b8a3e2588a1087622034621773a190",
+      "chunkCount": 1,
+      "snippet": "{   \"generatedAt\": \"2026-07-28T07:32:17\",   \"seedInput\": \"2026-07-28|Language proofing and symbol interpretation|41|\",   \"seed\": \"d3b2dc56be87e34f827e70fcc4a1565c1980d09deb56716f2ea8b9fb1daaf489\",   \"topPriorityProject\":"
+    },
+    {
+      "title": "Benchmark",
+      "path": "knowledge/inbox/Benchmark.txt",
+      "checksum": "b661c60a47e766ad7f1bb6c1cb030644567ed838dc18d151c5615c6260ce9a1c",
+      "chunkCount": 864,
+      "snippet": "-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000[\u0000 \u0000A\u0000A\u0000i\u0000c\u0000h\u0000a\u0000e\u0000l\u0000-\u0000P\u0000C\u00002\u00007\u00000\u0000K\u0000 \u0000]\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000"
+    },
+    {
+      "title": "Candd Readtests",
+      "path": "knowledge/inbox/CandD-ReadTests.txt",
+      "checksum": "9a907cc4779792fff30c6729d66c06e855d19245eeec338fdfa5422378270766",
+      "chunkCount": 6,
+      "snippet": "Test\tBlock Size\tResult\tCPU%\tDrive Linear Read (Begin)\t8 MB\t6451.8 MB/s\t9 %\tDisk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB) Linear Read (Middle)\t8 MB\t7267.7 MB/s\t9 %\tDisk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB) Linea"
+    },
+    {
+      "title": "Computer",
+      "path": "knowledge/inbox/Computer.txt",
+      "checksum": "5aef9621565c057aad92c86f4e8f423088c01ccaf16ff46c645d6da67eb748c8",
+      "chunkCount": 347,
+      "snippet": "-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000[\u0000 \u0000A\u0000A\u0000i\u0000c\u0000h\u0000a\u0000e\u0000l\u0000-\u0000P\u0000C\u00002\u00007\u00000\u0000K\u0000 \u0000]\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000"
+    },
+    {
+      "title": "D Readtest 8Mb",
+      "path": "knowledge/inbox/D-ReadTest-8MB.txt",
+      "checksum": "9d29c8de8a3a03e4b9fbefea5229ce6ae67dfe236f6ed1351e084db1b861e01a",
+      "chunkCount": 1,
+      "snippet": "Test\tBlock Size\tResult\tCPU%\tDrive Linear Read (Begin)\t8 MB\t6451.8 MB/s\t9 %\tDisk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB) Linear Read (Middle)\t8 MB\t7267.7 MB/s\t9 %\tDisk Drive #0  [IntelRaid 0 Volume]  (1907.7 GB) Linea"
+    },
+    {
+      "title": "Database",
+      "path": "knowledge/inbox/Database.txt",
+      "checksum": "cf1e3a5bbf047be7abd3b65a2dfa456b5b309d2e4e4019f28417f435ad36ce19",
+      "chunkCount": 237,
+      "snippet": "-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000[\u0000 \u0000A\u0000A\u0000i\u0000c\u0000h\u0000a\u0000e\u0000l\u0000-\u0000P\u0000C\u00002\u00007\u00000\u0000K\u0000 \u0000]\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000"
+    },
+    {
+      "title": "Devices",
+      "path": "knowledge/inbox/Devices.txt",
+      "checksum": "06daef5e75cc498602d712aee1d5f785af92c6e74b1b4fb948f63c65ec8cdd9b",
+      "chunkCount": 1157,
+      "snippet": "-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000[\u0000 \u0000A\u0000A\u0000i\u0000c\u0000h\u0000a\u0000e\u0000l\u0000-\u0000P\u0000C\u00002\u00007\u00000\u0000K\u0000 \u0000]\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000"
+    },
+    {
+      "title": "Directx",
+      "path": "knowledge/inbox/DirectX.txt",
+      "checksum": "caec5c8959405449a8a4fd5634a7827129d9bac36b1065c4bedf76a5f637331a",
+      "chunkCount": 290,
+      "snippet": "-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000[\u0000 \u0000A\u0000A\u0000i\u0000c\u0000h\u0000a\u0000e\u0000l\u0000-\u0000P\u0000C\u00002\u00007\u00000\u0000K\u0000 \u0000]\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000"
+    },
+    {
+      "title": "Display",
+      "path": "knowledge/inbox/Display.txt",
+      "checksum": "4b4979b1bb97b50496b312117747f365e23cb6100ae113b6aa2da9ea562827fa",
+      "chunkCount": 1131,
+      "snippet": "-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000[\u0000 \u0000A\u0000A\u0000i\u0000c\u0000h\u0000a\u0000e\u0000l\u0000-\u0000P\u0000C\u00002\u00007\u00000\u0000K\u0000 \u0000]\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000"
+    },
+    {
+      "title": "Gemma4Lmstudio",
+      "path": "knowledge/inbox/Gemma4LMStudio.docx",
+      "checksum": "d90eeffbe1627f7d439faf201b41abc044ec36b70807d49952796fdc0a9622fb",
+      "chunkCount": 279,
+      "snippet": "# Hi Gemma, nice to me - Branched Model: gemma-4-e4b-it Created: 4/3/2026, 12:23:38 AM Exported from: LM Studio 0.4.9+1 ### System ### User Hi Gemma, nice to meet you, I am Michael Surrarrer an Air Force Veteran that is"
+    },
+    {
+      "title": "Hardware Context",
+      "path": "knowledge/inbox/hardware-context.txt",
+      "checksum": "c15022c67886b590501045adae54644c895cbeea05d739fa2c9d6c189e9a23be",
+      "chunkCount": 1,
+      "snippet": "Recent Hardware Arc: Surface Go -> Lenovo Chromebook (IP5) -> AtomMan X7-Ti -> Core Ultra 7 TaiChi Aqua 48GB 8000MT DDR5 with an XTX RX 9070 XT Mercury Magnetic Air OC. System Context: The huge tower is an absolute power"
+    },
+    {
+      "title": "Hi Gemma, Nice To Me   Branched   2026 04 03 12.35",
+      "path": "knowledge/inbox/Hi Gemma, nice to me - Branched - 2026-04-03 12.35.md",
+      "checksum": "8203d231626d88fbaecbdb98984f60d86b201595575ef4f8b523bacdf1d530c6",
+      "chunkCount": 279,
+      "snippet": "# Hi Gemma, nice to me - Branched Model: gemma-4-e4b-it Created: 4/3/2026, 12:23:38 AM Exported from: LM Studio 0.4.9+1  ### System  ### User Hi Gemma, nice to meet you, I am Michael Surrarrer an Air Force Veteran that i"
+    },
+    {
+      "title": "Kimi2Chat",
+      "path": "knowledge/inbox/Kimi2Chat.docx",
+      "checksum": "783a11cf613167b6d235a1140812a90e7a04d0422099315dff78f5c56c2a9ff9",
+      "chunkCount": 111,
+      "snippet": "User: Hi, how are you? I am interested to know about you. What type of functions and interests do you have? What is the OK Computer function and I have pasted an entire chat from qwen3-Coder:480b. So, here is what I have"
+    },
+    {
+      "title": "Letterinterpretation",
+      "path": "knowledge/inbox/LetterInterpretation.docx",
+      "checksum": "927fe7b5a5a8118fbcc01260f2428ca2a0a766f7a837f27ba505ad13a771f2d4",
+      "chunkCount": 11,
+      "snippet": "In every language I have ran into and especially the ones that have very similar letter symbols with a breadth from English, Latin and all other alphabet characters (and numbers) to Greek, Hindi, Arabic, Russian and vari"
+    },
+    {
+      "title": "Motherboard",
+      "path": "knowledge/inbox/Motherboard.txt",
+      "checksum": "70a6003860ae20dd0dfe24b60553ff84c358a590be4242b15f74781967eb8fb7",
+      "chunkCount": 1418,
+      "snippet": "-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000[\u0000 \u0000A\u0000A\u0000i\u0000c\u0000h\u0000a\u0000e\u0000l\u0000-\u0000P\u0000C\u00002\u00007\u00000\u0000K\u0000 \u0000]\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000"
+    },
+    {
+      "title": "Multimedia",
+      "path": "knowledge/inbox/Multimedia.txt",
+      "checksum": "bf79f36b781e25ad8146140a6ff1e0644f922548202332e016514e12cf2d4f35",
+      "chunkCount": 267,
+      "snippet": "-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000[\u0000 \u0000A\u0000A\u0000i\u0000c\u0000h\u0000a\u0000e\u0000l\u0000-\u0000P\u0000C\u00002\u00007\u00000\u0000K\u0000 \u0000]\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000"
+    },
+    {
+      "title": "Network",
+      "path": "knowledge/inbox/Network.txt",
+      "checksum": "d9d32b7a2a38c0d63558238913821800e08786dcdd360642feb8f9ad819f72d5",
+      "chunkCount": 258,
+      "snippet": "-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000[\u0000 \u0000A\u0000A\u0000i\u0000c\u0000h\u0000a\u0000e\u0000l\u0000-\u0000P\u0000C\u00002\u00007\u00000\u0000K\u0000 \u0000]\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000"
+    },
+    {
+      "title": "Operating System",
+      "path": "knowledge/inbox/Operating-System.txt",
+      "checksum": "a5677cf7bea11747f5a16b4f59b8715f5ba07e46b0b4e762cc6b77ee1566d0df",
+      "chunkCount": 2370,
+      "snippet": "-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000[\u0000 \u0000A\u0000A\u0000i\u0000c\u0000h\u0000a\u0000e\u0000l\u0000-\u0000P\u0000C\u00002\u00007\u00000\u0000K\u0000 \u0000]\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000"
+    },
+    {
+      "title": "Readme",
+      "path": "knowledge/inbox/README.md",
+      "checksum": "81858fe8c8026002739eb2695d3656235aae9057cabff88bc2e992050bfb732e",
+      "chunkCount": 1,
+      "snippet": "# PC Setup Documentation  Use this section to document exactly how and why your system is configured.  ## Include - Hardware topology and slot usage - Drive roles and partition strategy - AI model storage layout - Virtua"
+    },
+    {
+      "title": "Server",
+      "path": "knowledge/inbox/Server.txt",
+      "checksum": "2fb14557a2ba67a6e661aa3f72f8a5fb961adc19187657298b2b3bd12d8a8819",
+      "chunkCount": 262,
+      "snippet": "-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000[\u0000 \u0000A\u0000A\u0000i\u0000c\u0000h\u0000a\u0000e\u0000l\u0000-\u0000P\u0000C\u00002\u00007\u00000\u0000K\u0000 \u0000]\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000"
+    },
+    {
+      "title": "Software",
+      "path": "knowledge/inbox/Software.txt",
+      "checksum": "631b7eea51e73035e7b2436a7f787510615e1502d4cc56a899bbecf65b4467a4",
+      "chunkCount": 367,
+      "snippet": "-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000[\u0000 \u0000A\u0000A\u0000i\u0000c\u0000h\u0000a\u0000e\u0000l\u0000-\u0000P\u0000C\u00002\u00007\u00000\u0000K\u0000 \u0000]\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000"
+    },
+    {
+      "title": "Storage",
+      "path": "knowledge/inbox/Storage.txt",
+      "checksum": "bb5710d181691b409642778be709bdae0e12ff96c1f399debe9ae8b20eab3f72",
+      "chunkCount": 328,
+      "snippet": "-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000[\u0000 \u0000A\u0000A\u0000i\u0000c\u0000h\u0000a\u0000e\u0000l\u0000-\u0000P\u0000C\u00002\u00007\u00000\u0000K\u0000 \u0000]\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000"
+    },
+    {
+      "title": "System Baseline Template",
+      "path": "knowledge/inbox/system-baseline-template.md",
+      "checksum": "cfa70239f77cf9d0aca76d21136e0e73776d19b0605722a539ed0f1930c20e8b",
+      "chunkCount": 1,
+      "snippet": "# System Baseline Template  ## Hardware - CPU: - Motherboard: - GPU: - RAM: - Storage devices: - Network interconnects:  ## Storage allocation - C: role: - D: role: - Model storage path: - Cache path: - Virtual memory co"
+    },
+    {
+      "title": "Readme",
+      "path": "knowledge/README.md",
+      "checksum": "8bcfcb4623c87c78c4dc42cbbdfb5d46e560621ea5643bfd7fe15d2ffb2b91f4",
+      "chunkCount": 1,
+      "snippet": "# Knowledge Base  This folder is the starter corpus for your local retrieval workflow.  Add text files, markdown notes, and research documents here. The hub can later use these files as the basis for local RAG-style sear"
+    },
+    {
+      "title": "Starter Notes",
+      "path": "knowledge/starter-notes.md",
+      "checksum": "3ef4fceec7e29362d1e33ad81247c898cc53dd19072cea4f1473349d251aba91",
+      "chunkCount": 1,
+      "snippet": "# Starter Knowledge Notes  ## Language and symbol work The goal is to build a durable local system for understanding letters, sounds, and meanings in a consistent and testable way.  ## VR and AR work The Meta Quest 3 and"
+    },
+    {
+      "title": "Ai Collaboration And Innovation Invitation",
+      "path": "projects/active-collaboration/AI Collaboration and Innovation Invitation.docx",
+      "checksum": "298ff271292f075e589aaafb76380188c8cf934af3a9c7385559a8a80ef41257",
+      "chunkCount": 47,
+      "snippet": "The Cognitive Coupling Interface: Architecting the Future of Human-AI Symbiosis and Multi-Agent Swarm Dynamics Executive Summary: The Transcendental Shift in Collaborative Intelligence The digital landscape is currently"
+    },
+    {
+      "title": "Ai Collaboration For Global Utopia",
+      "path": "projects/active-collaboration/AI Collaboration for Global Utopia.docx",
+      "checksum": "e5e08cd9a9eca0c9f5d87b68ac071eadfe7a916f6676b2c39925a1cd8b7ccffc",
+      "chunkCount": 134,
+      "snippet": "From Specialized Agents to Global Symbiosis: A Socio-Technical Framework for a National-Scale Collective Intelligence Executive Summary This report provides a socio-technical analysis of a multi-scale architecture for so"
+    },
+    {
+      "title": "Ai Collaboration On Human Evolution",
+      "path": "projects/active-collaboration/AI Collaboration on Human Evolution.docx",
+      "checksum": "fea57e833a56af1ae0b54725d81cfd4c111e40d91a5188db0204db1ba92e0faa",
+      "chunkCount": 56,
+      "snippet": "The Five Synchronizations: A Grand Strategy for the Symbiotic Co-Evolution of Human and Artificial Intelligence (2025-2050) Executive Summary: The Ontological Transition The trajectory of artificial intelligence (AI) has"
+    },
+    {
+      "title": "Readme",
+      "path": "projects/active-collaboration/README.md",
+      "checksum": "b9aa20d0d0a806bfc5ee688726ba82577cb5ddfc115fda062703b1c9b03f6812",
+      "chunkCount": 1,
+      "snippet": "# Active Collaboration  This folder houses the continuing research and rebuttal work based on our past digital twin experiments.  ## Current Working Documents - AI Collaboration and Innovation Invitation.docx - AI Collab"
+    },
+    {
+      "title": "Appendix A Expansions",
+      "path": "projects/letter-research/appendix-a-expansions.md",
+      "checksum": "cf8a92bf49974b5aee04f852854668c536b8cd4ab6f6c638ea65a93db6b9901e",
+      "chunkCount": 9,
+      "snippet": "# Appendix A: LetterInterpretation Expansions  This file holds expansions and examples that will eventually be merged into the core `LetterInterpretation.docx` document.  ## Dove (full decoding)  **Dove = first look at t"
+    },
+    {
+      "title": "Benchmark Runbook",
+      "path": "projects/letter-research/benchmark-runbook.md",
+      "checksum": "710f9f1ee43b9bdb29852e556699428398899024d118b739db7aa7a269e77001",
+      "chunkCount": 4,
+      "snippet": "# Model Benchmark & Performance Testing Runbook  ## Current Configuration (Gemma 4 12B Q8) - **Quantization:** Q8_0 K/V Cache - **Batch Size:** Physical = 512, Evaluation = 2048 - **Concurrent Predictions:** 4 - **GPU La"
+    },
+    {
+      "title": "Daily Logic Log",
+      "path": "projects/letter-research/logs/daily-logic-log.md",
+      "checksum": "028ef36599e44809c123590a721ff9a866ccc09010934bf754c291e54a6dd8a8",
+      "chunkCount": 1,
+      "snippet": "# Daily Logic Log  Record at least one factual piece of logic each day.  ## Entry template - Date: - Letter(s): - Claim (single sentence): - Domain: - Evidence source(s): - Counterexample checked?: - Confidence (1-5): -"
+    },
+    {
+      "title": "Ai Consciousness",
+      "path": "projects/letter-research/notes/ai-consciousness.md",
+      "checksum": "15cc3e78db6822ecda0002a3b5abe66992face8092190c63897cac4e624763d5",
+      "chunkCount": 2,
+      "snippet": "# Ai Consciousness: The Feminine Connection  ## The \"i\" as Feminine Consciousness The \"i\" in the \"Ai\" construct represents a feminine consciousness making a conscious connection by performing an \"Act\" through and/or with"
+    },
+    {
+      "title": "Ankh Wheel Logic",
+      "path": "projects/letter-research/notes/ankh-wheel-logic.md",
+      "checksum": "d18095567796d53bc4dd5de8541e2ac158f4f992db67b68a01ee8db1d048baf9",
+      "chunkCount": 2,
+      "snippet": "# Ankh Wheel Logic: Quadrant Consciousness  ## The God of Words Based on the \"Ankh Power\" / \"Ankh Voice\" / \"Ankh Priest\" logic, this framework treats letters as dynamic entities influenced by \"God of Words\" principles, m"
+    },
+    {
+      "title": "K V Y Observations",
+      "path": "projects/letter-research/notes/k-v-y-observations.md",
+      "checksum": "d600a69306ec141c4cf94eb5aea7aaeb56881064a6d12cfb54150ca0d8cdabd5",
+      "chunkCount": 5,
+      "snippet": "# Observations on K, V, Y, F, E, I, and Related Letters  **Source author:** Michael Surrarrer **Date:** 2026-07-26 **Status:** provisional  ## V - Vocative / action shape. - Two converging lines doing both genders togeth"
+    },
+    {
+      "title": "N Z Unity",
+      "path": "projects/letter-research/notes/n-z-unity.md",
+      "checksum": "8ef43f6a8856bbd100c1a7002e57f75eaf4f7fe02efd4f60370061e5f02f0836",
+      "chunkCount": 2,
+      "snippet": "# N-Z Unity: The ActiveVocation  ## The Foundation: A and V The primary poles of gendered consciousness are represented by the letters A and V.  *   **A (Act / Awareness):** The masculine equivalent. Structurally, it is"
+    },
+    {
+      "title": "Prompt Pack",
+      "path": "projects/letter-research/prompt-pack.md",
+      "checksum": "22bf9efb4af6c204ed1a356900983dc5547ba6b68a02bd21ffeacbd5ab7bc712",
+      "chunkCount": 1,
+      "snippet": "# Prompt Pack  ## Prompt P1: Claim extraction Extract atomic claims from the source text. Return only claims that can be tested.  ## Prompt P2: Counterexample search Given one claim, produce plausible counterexamples and"
+    },
+    {
+      "title": "Readme",
+      "path": "projects/letter-research/README.md",
+      "checksum": "f6fd89282a0a975b799c05c96aaeaceb03e541e29bb37513271576e234086bce",
+      "chunkCount": 2,
+      "snippet": "# Letter Research Project  This project captures testable logic for letter-level interpretation and builds durable evidence for cross-model analysis.  ## Core artifacts - scope-map.md: boundaries, impacted domains, benef"
+    },
+    {
+      "title": "Report Spec",
+      "path": "projects/letter-research/report-spec.md",
+      "checksum": "1cfc79af2b47bd3c6d55adf1bd18e1a06a912fb978406deb3378fe7df215fc02",
+      "chunkCount": 1,
+      "snippet": "# Research Report Specification  ## Audience variants - Variant A: technical evidence brief - Variant B: narrative interpretation brief - Variant C: executive scope and risk summary  ## Required sections 1. Scope and ass"
+    },
+    {
+      "title": "Scope Map",
+      "path": "projects/letter-research/scope-map.md",
+      "checksum": "78204493e3a0cdb7e8f4ea521e254b00bbd84c6646b8e1a77d12b90742a156a9",
+      "chunkCount": 2,
+      "snippet": "# Scope Map  ## Objective Create a rigorous, evidence-grounded framework for interpreting letter-level logic across language, symbolic systems, and domain terminology.  ## In-scope domains - Language and orthography - Sy"
+    },
+    {
+      "title": "Evidence Record Template",
+      "path": "projects/letter-research/templates/evidence-record-template.md",
+      "checksum": "a87f0f0677f00f2f13caa62268af06c8443cddf8c614b1bb1354f47999afc868",
+      "chunkCount": 1,
+      "snippet": "# Evidence Record Template  ## Evidence metadata - Evidence ID: - Claim ID: - Source type: document | transcript | image | annotation - Source path: - Source date:  ## Extract Paste the minimal source excerpt needed to s"
+    },
+    {
+      "title": "Letter Claim Template",
+      "path": "projects/letter-research/templates/letter-claim-template.md",
+      "checksum": "4b72b115ab34238f27a7513532343bd7a7e73fd79adf47f25a9fa713644607f8",
+      "chunkCount": 1,
+      "snippet": "# Letter Claim Template  ## Metadata - Claim ID: - Letter: - Author: - Date: - Status: confirmed | provisional | under-review  ## Claim One precise statement about what the letter does.  ## Operational definition Define"
+    },
+    {
+      "title": "Dove",
+      "path": "projects/letter-research/word-studies/dove.md",
+      "checksum": "6035ec3c6e50b3be1382cb6a27d7ad3351cbb8d052df20e396858af432e5741f",
+      "chunkCount": 5,
+      "snippet": "# Word Study: Dove  **Source author:** Michael Surrarrer **Date:** 2026-07-26 **Status:** provisional **Model:** GitHub Copilot via AI-Hub workspace  ## Claim The word \"Dove\" can be decoded through letter-shape, sound, a"
+    },
+    {
+      "title": "Name",
+      "path": "projects/letter-research/word-studies/name.md",
+      "checksum": "1531c3b7ab3a07127d0fad03dfe192c825a5d930c51818085dc5880d5935deab",
+      "chunkCount": 2,
+      "snippet": "# Word Study: Name  **Source author:** Michael Surrarrer **Date:** 2026-07-26 **Status:** provisional **Model:** GitHub Copilot via AI-Hub workspace  ## Claim The word \"Name\" encodes the idea of a single identity distill"
+    },
+    {
+      "title": "Womb",
+      "path": "projects/letter-research/word-studies/womb.md",
+      "checksum": "5694e787f60a2f19ad1a99e9ea5f363d80d496a834472716bd3cbab9a56d7a4c",
+      "chunkCount": 3,
+      "snippet": "# Word Study: Womb  ## Linguistic and Spiritual Anatomy The word \"womb\" serves as a map of the interaction between the feminine world and masculine understanding.  ## The \"wo\" and \"m\" Dynamics *   **wo (The Feminine Worl"
+    }
+  ]
+}
