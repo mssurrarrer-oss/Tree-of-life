@@ -1,0 +1,134 @@
+{
+  "version": "1.1",
+  "notes": "Caregiver-oriented local trigger rules for watch, camera, and wearable vitals escalation with privacy-conscious alerts.",
+  "triggers": [
+    {
+      "id": "night-door-person-detected",
+      "eventType": "person_detected",
+      "conditions": {
+        "personRole": "care_recipient",
+        "zone": "front_door",
+        "confidenceMin": 0.82,
+        "timeWindow": "22:00-06:00"
+      },
+      "severity": "high",
+      "actions": [
+        "notify_caregiver_sms",
+        "push_mobile_alert",
+        "mark_safety_timeline"
+      ]
+    },
+    {
+      "id": "night-door-activity",
+      "eventType": "door_activity",
+      "conditions": {
+        "personRole": "care_recipient",
+        "zone": "front_door",
+        "timeWindow": "22:00-06:00"
+      },
+      "severity": "medium",
+      "actions": [
+        "notify_caregiver_app",
+        "mark_safety_timeline"
+      ]
+    },
+    {
+      "id": "inactivity-daytime",
+      "eventType": "inactivity_alert",
+      "conditions": {
+        "personRole": "care_recipient",
+        "inactivityMinutesMin": 90,
+        "timeWindow": "08:00-20:00"
+      },
+      "severity": "medium",
+      "actions": [
+        "notify_caregiver_app",
+        "request_voice_checkin"
+      ]
+    },
+    {
+      "id": "fall-detected",
+      "eventType": "fall_detected",
+      "conditions": {
+        "personRole": "care_recipient",
+        "confidenceMin": 0.8
+      },
+      "severity": "high",
+      "actions": [
+        "notify_caregiver_sms",
+        "push_mobile_alert",
+        "request_voice_checkin"
+      ]
+    },
+    {
+      "id": "checkin-missed",
+      "eventType": "checkin_missed",
+      "conditions": {
+        "personRole": "care_recipient",
+        "missedMinutesMin": 60,
+        "timeWindow": "08:00-20:00"
+      },
+      "severity": "medium",
+      "actions": [
+        "notify_caregiver_app",
+        "schedule_followup_prompt"
+      ]
+    },
+    {
+      "id": "heart-rate-high",
+      "eventType": "wearable_vitals",
+      "conditions": {
+        "personRole": "care_recipient",
+        "heartRateMin": 120
+      },
+      "severity": "high",
+      "actions": [
+        "notify_caregiver_sms",
+        "notify_backup_contact",
+        "suggest_medical_review"
+      ]
+    },
+    {
+      "id": "heart-rate-low",
+      "eventType": "wearable_vitals",
+      "conditions": {
+        "personRole": "care_recipient",
+        "heartRateMax": 45
+      },
+      "severity": "high",
+      "actions": [
+        "notify_caregiver_sms",
+        "notify_backup_contact",
+        "suggest_medical_review"
+      ]
+    },
+    {
+      "id": "oxygen-low",
+      "eventType": "wearable_vitals",
+      "conditions": {
+        "personRole": "care_recipient",
+        "spo2Max": 92
+      },
+      "severity": "high",
+      "actions": [
+        "notify_caregiver_sms",
+        "notify_backup_contact",
+        "suggest_medical_review"
+      ]
+    },
+    {
+      "id": "camera-offline-overdue",
+      "eventType": "device_status",
+      "conditions": {
+        "deviceType": "camera",
+        "status": "offline",
+        "offlineMinutesMin": 15
+      },
+      "severity": "medium",
+      "actions": [
+        "create_maintenance_task",
+        "notify_admin_console"
+      ]
+    }
+  ]
+}

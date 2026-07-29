@@ -1,6 +1,41 @@
 {
-  "updatedAt": "2026-07-28T17:48:22.776884+00:00",
+  "updatedAt": "2026-07-29T02:09:45.538103+00:00",
   "documents": [
+    {
+      "title": "2026 07 28 Brief",
+      "path": "knowledge/checkins/2026-07-28-brief.md",
+      "checksum": "1cea964c74f0be88dc3670dce2fec2c9ba72ca073b6ee9d186b70811ccbe5b5c",
+      "chunkCount": 1,
+      "snippet": "# AI Hub Daily State-of-Affairs Brief **Generated At**: 2026-07-28 19:08:51 **Date**: 2026-07-28  ## 1. System Status & Cluster Link - **Agent Runs**: 3 - **Knowledge Note Count**: 3 - **Cluster Status**: Offline / Stand"
+    },
+    {
+      "title": "2026 07 28 Care Alert Simulation",
+      "path": "knowledge/checkins/2026-07-28-care-alert-simulation.md",
+      "checksum": "93431d394ca6f8771e7a1af01c82cf00eee84f6ba9360b44e816cf0e773f0966",
+      "chunkCount": 2,
+      "snippet": "# Care Alert Simulation Report  - GeneratedAt: 2026-07-28T19:08:17 - TriggerConfig: X:\\services\\automation-framework\\care-alert-triggers.json - EventSource: X:\\services\\automation-framework\\care-alert-sample-events.json"
+    },
+    {
+      "title": "2026 07 28 Cloud Spend",
+      "path": "knowledge/checkins/2026-07-28-cloud-spend.md",
+      "checksum": "8ac0a175609edcd05ec67faba993ca822a742d5568c0585d6c451cc16dd77b92",
+      "chunkCount": 1,
+      "snippet": "# Cloud Spend Summary  - Window: 2026-07-28 to 2026-07-28 - Entries: 1 - Total Cost (USD): 2.3500 - Tokens In: 12000 - Tokens Out: 8000 - Total Tokens: 20000  ## Breakdown | Provider | Model | Runs | Cost USD | Tokens |"
+    },
+    {
+      "title": "2026 07 28 Inbox Triage",
+      "path": "knowledge/checkins/2026-07-28-inbox-triage.md",
+      "checksum": "450eff4777e8d2669e352e79397683ba2d816b39799bd9bfa8fddc0ac36a9dc2",
+      "chunkCount": 4,
+      "snippet": "# Inbox Triage Report  Generated At: 2026-07-28 19:08:51 Inbox Path: \\\\AAichael-PC270K\\ai-hub\\knowledge\\inbox Total Files Evaluated: 32 Priority Counts: P0=0, P1=0, P2=1, P3=31  ## Queue (Top 20) | Rank | Priority | Lane"
+    },
+    {
+      "title": "2026 07 28 Notes",
+      "path": "knowledge/checkins/2026-07-28-notes.md",
+      "checksum": "183a29f86e71d4181fe56cb682298c18a76cd3e4f649f5c1f1a1ebbc9a6b7d5f",
+      "chunkCount": 2,
+      "snippet": "# Daily Check-In Notes (2026-07-28)  ## Current state -   ## Risks or blockers -   ## Decisions today -   ## Next action -   ## Automation Artifacts (2026-07-28 19:07:36) - Conversation Import Log: X:\\knowledge\\checkins\\"
+    },
     {
       "title": "Conversation Import Template",
       "path": "knowledge/conversation-import-template.md",
@@ -9,11 +44,18 @@
       "snippet": "# Conversation Import Template  Use this file to paste saved conversations, important chats, and reflections.  ## Suggested format - Date: - Source: - Summary: - Key themes: - Important quotes: - Follow-up actions:"
     },
     {
+      "title": "Daily Brief",
+      "path": "knowledge/daily-brief.md",
+      "checksum": "1cea964c74f0be88dc3670dce2fec2c9ba72ca073b6ee9d186b70811ccbe5b5c",
+      "chunkCount": 1,
+      "snippet": "# AI Hub Daily State-of-Affairs Brief **Generated At**: 2026-07-28 19:08:51 **Date**: 2026-07-28  ## 1. System Status & Cluster Link - **Agent Runs**: 3 - **Knowledge Note Count**: 3 - **Cluster Status**: Offline / Stand"
+    },
+    {
       "title": "Daily Seed Plan",
       "path": "knowledge/daily-seed-plan.json",
-      "checksum": "5b1c68b5047b00bfecceeae59e3c6e1260b8a3e2588a1087622034621773a190",
+      "checksum": "8f2870810649a53b54accc53f059da640bdb46ccf42b7a81aa92d3c704aa0d46",
       "chunkCount": 1,
-      "snippet": "{   \"generatedAt\": \"2026-07-28T07:32:17\",   \"seedInput\": \"2026-07-28|Language proofing and symbol interpretation|41|\",   \"seed\": \"d3b2dc56be87e34f827e70fcc4a1565c1980d09deb56716f2ea8b9fb1daaf489\",   \"topPriorityProject\":"
+      "snippet": "{   \"generatedAt\": \"2026-07-28T19:08:51\",   \"seedInput\": \"2026-07-28|Language proofing and symbol interpretation|59|\",   \"seed\": \"42725da5676eb82f344f163877a7343c9279f0aa227660a38fedc06cb03f8246\",   \"topPriorityProject\":"
     },
     {
       "title": "Benchmark",
@@ -79,6 +121,13 @@
       "snippet": "# Hi Gemma, nice to me - Branched Model: gemma-4-e4b-it Created: 4/3/2026, 12:23:38 AM Exported from: LM Studio 0.4.9+1 ### System ### User Hi Gemma, nice to meet you, I am Michael Surrarrer an Air Force Veteran that is"
     },
     {
+      "title": "Readme",
+      "path": "knowledge/inbox/group/README.md",
+      "checksum": "aa070977bfb2d0a5d0d85229f3c6f5211450b6ee4543a2d05376dc0f7909b29d",
+      "chunkCount": 1,
+      "snippet": "# Group Inbox  Place shared mission and collaboration source files here.  These files are prioritized in daily triage as group lane items."
+    },
+    {
       "title": "Hardware Context",
       "path": "knowledge/inbox/hardware-context.txt",
       "checksum": "c15022c67886b590501045adae54644c895cbeea05d739fa2c9d6c189e9a23be",
@@ -91,6 +140,13 @@
       "checksum": "8203d231626d88fbaecbdb98984f60d86b201595575ef4f8b523bacdf1d530c6",
       "chunkCount": 279,
       "snippet": "# Hi Gemma, nice to me - Branched Model: gemma-4-e4b-it Created: 4/3/2026, 12:23:38 AM Exported from: LM Studio 0.4.9+1  ### System  ### User Hi Gemma, nice to meet you, I am Michael Surrarrer an Air Force Veteran that i"
+    },
+    {
+      "title": "Readme",
+      "path": "knowledge/inbox/import-drop/README.md",
+      "checksum": "2160e4d977d1673d1a9389bff0e68cc1887ef638d58fbe025fc696f3b07d37e4",
+      "chunkCount": 1,
+      "snippet": "# Conversation Import Drop Folder  Drop exported conversation files here for automatic routing during daily check-in.  Supported file types: - .md - .txt - .json - .docx - .xlsx  Routing behavior (default): - Items are m"
     },
     {
       "title": "Kimi2Chat",
@@ -121,6 +177,34 @@
       "snippet": "-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000[\u0000 \u0000A\u0000A\u0000i\u0000c\u0000h\u0000a\u0000e\u0000l\u0000-\u0000P\u0000C\u00002\u00007\u00000\u0000K\u0000 \u0000]\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000"
     },
     {
+      "title": "Navigator Multi Ai Coordination Hub Specification V1.0",
+      "path": "knowledge/inbox/Navigator Multi-AI Coordination Hub Specification v1.0.docx",
+      "checksum": "219753c49fe0aded6caca51f6770debf9be2bd57d62b3c30770d1e9bb89df87c",
+      "chunkCount": 23,
+      "snippet": "Navigator Multi-AI Coordination Hub Specification Technical & Operational Reference \u2014 Multi-AI Collaboration Framework Title Navigator Multi-AI Coordination Hub Specification Version 1.0 Owner Michael (Project Owner) Tec"
+    },
+    {
+      "title": "Navigator Persona Specification V1.0",
+      "path": "knowledge/inbox/Navigator Persona Specification v1.0.docx",
+      "checksum": "40e9ab0115fb6e36cc116e7a99fd78d7e0daa03dafd4f64dc3f4090b242ef0d9",
+      "chunkCount": 40,
+      "snippet": "Navigator Persona Specification Technical & Editorial Reference \u2014 Sprint 0 Draft Document Title Navigator Persona Specification Version 1.0 (Sprint 0 Draft) Owner Michael (Project Owner)  /  Copilot Navigator (Technical"
+    },
+    {
+      "title": "Navigator Sprint 1 Project Tracker",
+      "path": "knowledge/inbox/Navigator Sprint 1 Project Tracker.xlsx",
+      "checksum": "0a1d6c7024ab03a2d72a53a7e2e923764a4a49c32227e119b424d37d319e2e2f",
+      "chunkCount": 0,
+      "snippet": ""
+    },
+    {
+      "title": "Navigator \u2014 Annotation Schema, Dataset Pipeline & Evaluation Rubric",
+      "path": "knowledge/inbox/Navigator \u2014 Annotation Schema, Dataset Pipeline & Evaluation Rubric.xlsx",
+      "checksum": "e89a61e4d532195861971dd323bc2e82b52db0ce524b91384f58372a0d94c4a3",
+      "chunkCount": 0,
+      "snippet": ""
+    },
+    {
       "title": "Network",
       "path": "knowledge/inbox/Network.txt",
       "checksum": "d9d32b7a2a38c0d63558238913821800e08786dcdd360642feb8f9ad819f72d5",
@@ -133,6 +217,13 @@
       "checksum": "a5677cf7bea11747f5a16b4f59b8715f5ba07e46b0b4e762cc6b77ee1566d0df",
       "chunkCount": 2370,
       "snippet": "-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000[\u0000 \u0000A\u0000A\u0000i\u0000c\u0000h\u0000a\u0000e\u0000l\u0000-\u0000P\u0000C\u00002\u00007\u00000\u0000K\u0000 \u0000]\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000-\u0000"
+    },
+    {
+      "title": "Readme",
+      "path": "knowledge/inbox/personal/README.md",
+      "checksum": "1a48595ec68fba986def96893514a1c9fb64d87e172584a1c5dc495c250e2a5d",
+      "chunkCount": 1,
+      "snippet": "# Personal Inbox  Place private or individual-context source files here.  These files are prioritized in daily triage but handled as personal lane items."
     },
     {
       "title": "Readme",
@@ -172,7 +263,7 @@
     {
       "title": "Readme",
       "path": "knowledge/README.md",
-      "checksum": "8bcfcb4623c87c78c4dc42cbbdfb5d46e560621ea5643bfd7fe15d2ffb2b91f4",
+      "checksum": "38f176d273bf6309d5cbc343bc5b977e823a4df9271769b74dc6f162fbce9002",
       "chunkCount": 1,
       "snippet": "# Knowledge Base  This folder is the starter corpus for your local retrieval workflow.  Add text files, markdown notes, and research documents here. The hub can later use these files as the basis for local RAG-style sear"
     },

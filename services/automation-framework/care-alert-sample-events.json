@@ -1,0 +1,71 @@
+[
+  {
+    "eventId": "evt-001",
+    "eventType": "person_detected",
+    "timestamp": "2026-07-28T23:41:00",
+    "personRole": "care_recipient",
+    "zone": "front_door",
+    "confidence": 0.91,
+    "source": "camera.front-door"
+  },
+  {
+    "eventId": "evt-002",
+    "eventType": "inactivity_alert",
+    "timestamp": "2026-07-28T14:00:00",
+    "personRole": "care_recipient",
+    "inactivityMinutes": 112,
+    "source": "motion.living-room"
+  },
+  {
+    "eventId": "evt-003",
+    "eventType": "wearable_vitals",
+    "timestamp": "2026-07-28T15:05:00",
+    "personRole": "care_recipient",
+    "heartRate": 126,
+    "spo2": 95,
+    "source": "wearable.watch"
+  },
+  {
+    "eventId": "evt-004",
+    "eventType": "device_status",
+    "timestamp": "2026-07-28T16:20:00",
+    "deviceType": "camera",
+    "status": "offline",
+    "offlineMinutes": 22,
+    "source": "camera.garage"
+  },
+  {
+    "eventId": "evt-005",
+    "eventType": "fall_detected",
+    "timestamp": "2026-07-29T06:10:00",
+    "personRole": "care_recipient",
+    "confidence": 0.94,
+    "source": "watch.se"
+  },
+  {
+    "eventId": "evt-006",
+    "eventType": "door_activity",
+    "timestamp": "2026-07-29T23:25:00",
+    "personRole": "care_recipient",
+    "zone": "front_door",
+    "confidence": 0.88,
+    "source": "camera.front-door"
+  },
+  {
+    "eventId": "evt-007",
+    "eventType": "checkin_missed",
+    "timestamp": "2026-07-29T13:40:00",
+    "personRole": "care_recipient",
+    "missedMinutes": 72,
+    "source": "app.caregiver"
+  },
+  {
+    "eventId": "evt-008",
+    "eventType": "wearable_vitals",
+    "timestamp": "2026-07-29T07:10:00",
+    "personRole": "care_recipient",
+    "heartRate": 80,
+    "spo2": 89,
+    "source": "wearable.watch"
+  }
+]

@@ -1,10 +1,35 @@
 param(
-    [string]$HubRoot = "d:\ai-hub",
+    [string]$HubRoot = "",
     [int]$Top = 10
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
+
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+if ([string]::IsNullOrWhiteSpace($HubRoot)) {
+    $HubRoot = (Resolve-Path (Join-Path $scriptDir "..")).ProviderPath
+} elseif (-not (Test-Path $HubRoot)) {
+    throw "Hub root not found: $HubRoot"
+} else {
+    $HubRoot = (Resolve-Path $HubRoot).ProviderPath
+}
+
+function To-RepoRelativePath {
+    param(
+        [string]$AbsolutePath,
+        [string]$BasePath
+    )
+
+    $base = (Resolve-Path $BasePath).ProviderPath.TrimEnd('\\')
+    $target = (Resolve-Path $AbsolutePath).ProviderPath
+
+    if ($target.StartsWith($base, [System.StringComparison]::OrdinalIgnoreCase)) {
+        return ($target.Substring($base.Length).TrimStart('\\') -replace '\\', '/')
+    }
+
+    return ($target -replace '\\', '/')
+}
 
 $configPath = Join-Path $HubRoot "config.local.json"
 if (-not (Test-Path $configPath)) {
@@ -12,15 +37,19 @@ if (-not (Test-Path $configPath)) {
 }
 
 $config = Get-Content $configPath -Raw | ConvertFrom-Json
-$inboxPath = Join-Path $HubRoot $config.knowledge_inbox
-$processedPath = Join-Path $HubRoot "knowledge\processed"
-$summaryPath = Join-Path $HubRoot "knowledge\last-ingest-summary.json"
+$knowledgeRootRel = if (-not [string]::IsNullOrWhiteSpace($config.knowledge_root)) { [string]$config.knowledge_root } else { "knowledge" }
+$inboxRel = if (-not [string]::IsNullOrWhiteSpace($config.knowledge_inbox)) { [string]$config.knowledge_inbox } else { (Join-Path $knowledgeRootRel "inbox") }
+$processedRel = if ($config.PSObject.Properties.Name -contains "knowledge_archive" -and -not [string]::IsNullOrWhiteSpace($config.knowledge_archive)) { [string]$config.knowledge_archive } else { (Join-Path $knowledgeRootRel "processed") }
+
+$inboxPath = Join-Path $HubRoot $inboxRel
+$processedPath = Join-Path $HubRoot $processedRel
+$summaryPath = Join-Path (Join-Path $HubRoot $knowledgeRootRel) "last-ingest-summary.json"
 
 if (-not (Test-Path $inboxPath)) {
     throw "Inbox path not found: $inboxPath"
 }
 
-$supported = @('.md', '.txt', '.json', '.docx')
+$supported = @('.md', '.txt', '.json', '.docx', '.xlsx')
 $files = Get-ChildItem -Path $inboxPath -File -Recurse -ErrorAction Stop
 $supportedFiles = @($files | Where-Object { $supported -contains $_.Extension.ToLowerInvariant() })
 $unsupportedFiles = @($files | Where-Object { $supported -notcontains $_.Extension.ToLowerInvariant() })
@@ -56,8 +85,8 @@ $supportedFiles |
     Sort-Object LastWriteTime -Descending |
     Select-Object -First $Top |
     ForEach-Object {
-        $rel = $_.FullName.Substring($HubRoot.Length).TrimStart('\\')
-        " - {0} ({1})" -f $rel.Replace('\\', '/'), $_.LastWriteTime
+        $rel = To-RepoRelativePath -AbsolutePath $_.FullName -BasePath $HubRoot
+        " - {0} ({1})" -f $rel, $_.LastWriteTime
     }
 
 if ($unsupportedFiles.Count -gt 0) {
@@ -67,7 +96,7 @@ if ($unsupportedFiles.Count -gt 0) {
         Sort-Object FullName |
         Select-Object -First $Top |
         ForEach-Object {
-            $rel = $_.FullName.Substring($HubRoot.Length).TrimStart('\\')
-            " - {0}" -f $rel.Replace('\\', '/')
+            $rel = To-RepoRelativePath -AbsolutePath $_.FullName -BasePath $HubRoot
+            " - {0}" -f $rel
         }
 }

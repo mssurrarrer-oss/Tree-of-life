@@ -1,0 +1,10 @@
+﻿[2026-07-28T19:09:21] Starting scheduled daily check-in
+[2026-07-28T19:09:21] Scheduled daily check-in failed
+Hub root not found: -HubRoot
+At \\AAichael-PC270K\ai-hub\tools\run-daily-checkin.ps1:17 char:5
++     throw "Hub root not found: $HubRoot"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Hub root not found: -HubRoot:String) [], RuntimeException
+    + FullyQualifiedErrorId : Hub root not found: -HubRoot
+ 
+

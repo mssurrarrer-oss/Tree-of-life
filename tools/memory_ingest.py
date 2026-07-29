@@ -8,7 +8,7 @@ import zipfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-SUPPORTED_SUFFIXES = {".md", ".txt", ".json", ".docx"}
+SUPPORTED_SUFFIXES = {".md", ".txt", ".json", ".docx", ".xlsx"}
 EXCLUDED_FILES = {
     "memory-index.json",
     "last-ingest-summary.json",
@@ -34,8 +34,32 @@ def read_text(path: Path) -> str:
         return read_json_text(path)
     if path.suffix.lower() == ".docx":
         return read_docx_text(path)
+    if path.suffix.lower() == ".xlsx":
+        return read_xlsx_text(path)
     return path.read_text(encoding="utf-8-sig", errors="ignore")
 
+def read_xlsx_text(path: Path) -> str:
+    try:
+        with zipfile.ZipFile(path, "r") as archive:
+            if "xl/sharedStrings.xml" not in archive.namelist():
+                return ""
+            xml_bytes = archive.read("xl/sharedStrings.xml")
+    except Exception:
+        return ""
+
+    try:
+        root = ET.fromstring(xml_bytes)
+    except ET.ParseError:
+        return ""
+
+    namespace = {"ns": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
+    strings = []
+    # Find all text nodes <t> within the sharedStrings
+    for t_node in root.findall(".//ns:t", namespace):
+        if t_node.text:
+            strings.append(t_node.text)
+
+    return "\n".join(strings)
 
 def read_docx_text(path: Path) -> str:
     try:

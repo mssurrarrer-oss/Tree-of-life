@@ -1,0 +1,2 @@
+﻿"timestamp","date","batchId","provider","model","tokensIn","tokensOut","totalTokens","costUsd","objective","artifactPath","status","notes"
+"2026-07-28T19:06:31","2026-07-28","D1-TEST-A","google","gemini-pro","12000","8000","20000","2.35","architecture synthesis","knowledge/checkins/2026-07-28-brief.md","executed","validation entry"

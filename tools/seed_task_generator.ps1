@@ -1,12 +1,31 @@
 param(
-    [string]$WorkflowTrackerPath = "d:\ai-hub\projects\workflow-tracker.json",
-    [string]$IngestSummaryPath = "d:\ai-hub\knowledge\last-ingest-summary.json",
+    [string]$WorkflowTrackerPath = "",
+    [string]$IngestSummaryPath = "",
     [string]$Salt = "",
-    [string]$OutputPath = "d:\ai-hub\knowledge\daily-seed-plan.json"
+    [string]$OutputPath = ""
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
+
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$repoRoot = (Resolve-Path (Join-Path $scriptDir "..")).Path
+
+if ([string]::IsNullOrWhiteSpace($WorkflowTrackerPath)) {
+    $WorkflowTrackerPath = Join-Path $repoRoot "projects\workflow-tracker.json"
+}
+
+if ([string]::IsNullOrWhiteSpace($IngestSummaryPath)) {
+    $IngestSummaryPath = Join-Path $repoRoot "knowledge\last-ingest-summary.json"
+}
+
+if ([string]::IsNullOrWhiteSpace($OutputPath)) {
+    $OutputPath = Join-Path $repoRoot "knowledge\daily-seed-plan.json"
+}
+
+if (-not (Test-Path $WorkflowTrackerPath)) {
+    throw "Missing workflow tracker: $WorkflowTrackerPath"
+}
 
 function Get-TopPriorityProjectName {
     param([object]$Tracker)
@@ -28,16 +47,21 @@ function Get-TopPriorityProjectName {
 }
 
 $tracker = Get-Content -Path $WorkflowTrackerPath -Raw | ConvertFrom-Json
-$ingest = Get-Content -Path $IngestSummaryPath -Raw | ConvertFrom-Json
+$ingest = $null
+if (Test-Path $IngestSummaryPath) {
+    $ingest = Get-Content -Path $IngestSummaryPath -Raw | ConvertFrom-Json
+} else {
+    Write-Warning "Ingest summary not found at $IngestSummaryPath; using 0 for document count."
+}
 
 $date = (Get-Date).ToString("yyyy-MM-dd")
 $topPriority = Get-TopPriorityProjectName -Tracker $tracker
 $docCount = 0
-if ($ingest.PSObject.Properties.Name -contains "documentsProcessed") {
+if ($ingest -and $ingest.PSObject.Properties.Name -contains "documentsProcessed") {
     $docCount = [int]$ingest.documentsProcessed
-} elseif ($ingest.PSObject.Properties.Name -contains "documentsIndexed") {
+} elseif ($ingest -and $ingest.PSObject.Properties.Name -contains "documentsIndexed") {
     $docCount = [int]$ingest.documentsIndexed
-} elseif ($ingest.PSObject.Properties.Name -contains "documentsSeen") {
+} elseif ($ingest -and $ingest.PSObject.Properties.Name -contains "documentsSeen") {
     $docCount = [int]$ingest.documentsSeen
 }
 
@@ -71,6 +95,11 @@ $plan = [ordered]@{
             objective = "Run one measurable experiment and record outcome."
         }
     )
+}
+
+$outputDir = Split-Path -Parent $OutputPath
+if (-not [string]::IsNullOrWhiteSpace($outputDir)) {
+    New-Item -ItemType Directory -Path $outputDir -Force | Out-Null
 }
 
 $plan | ConvertTo-Json -Depth 5 | Set-Content -Path $OutputPath -Encoding UTF8
