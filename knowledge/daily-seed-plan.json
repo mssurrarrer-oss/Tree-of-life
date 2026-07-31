@@ -1,19 +1,19 @@
-﻿{
-    "generatedAt":  "2026-07-28T19:09:49",
-    "seedInput":  "2026-07-28|Language proofing and symbol interpretation|59|",
-    "seed":  "42725da5676eb82f344f163877a7343c9279f0aa227660a38fedc06cb03f8246",
-    "topPriorityProject":  "Language proofing and symbol interpretation",
-    "ingestDocumentsProcessed":  59,
-    "tasks":  [
-                  {
-                      "type":  "stability",
-                      "category":  "cleanup",
-                      "objective":  "Deliver one reliability improvement in under 30 minutes."
-                  },
-                  {
-                      "type":  "exploration",
-                      "category":  "ux-experiment",
-                      "objective":  "Run one measurable experiment and record outcome."
-                  }
-              ]
+{
+  "generatedAt": "2026-07-30T09:39:42",
+  "seedInput": "2026-07-30|Language proofing and symbol interpretation|91|",
+  "seed": "857d1ecffb28412acfcf0dd4ab81176a743dd375a26d2b36ea470cfb38d20776",
+  "topPriorityProject": "Language proofing and symbol interpretation",
+  "ingestDocumentsProcessed": 91,
+  "tasks": [
+    {
+      "type": "stability",
+      "category": "documentation",
+      "objective": "Deliver one reliability improvement in under 30 minutes."
+    },
+    {
+      "type": "exploration",
+      "category": "prompt-experiment",
+      "objective": "Run one measurable experiment and record outcome."
+    }
+  ]
 }

@@ -1,8 +1,8 @@
 {
-  "runAt": "2026-07-29T02:09:45.538103+00:00",
-  "documentsSeen": 59,
-  "documentsIndexed": 59,
-  "chunksIndexed": 10348,
+  "runAt": "2026-07-30T16:39:42.556814+00:00",
+  "documentsSeen": 91,
+  "documentsIndexed": 91,
+  "chunksIndexed": 11911,
   "documentsDeleted": 0,
   "archivedInboxFiles": 0,
   "database": "knowledge/memory-metadata.db",
